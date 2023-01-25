@@ -43,14 +43,29 @@ a:hover {
     box-shadow: none;
     width: calc(632px + 6px);
     max-width: 548px;
-    height: 40px;
-    margin-top: 25px;
+    height: 42px;
+    margin-top: 26px;
+    color: rgba(0,0,0,.87);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+#input:hover {
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1pt 3pt 0.2pt #D3D3D3;
+}
+
+#input:active {
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1pt 3pt 0.2pt #D3D3D3;
 }
 
 .center-div {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 18px;
 }
 
 .search {
@@ -64,13 +79,14 @@ a:hover {
     border-radius:4px;
     font-family: arial, sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 11px 6px;
     padding: 0px 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
     cursor: pointer;
     user-select: none;
+    color: #3c4043;
 }
 
 .button:hover {
@@ -82,4 +98,12 @@ a:hover {
 
 .main-part {
     margin-top: 200px;
+}
+
+.logo {
+    padding-top: 3px;
+}
+
+.logo-images {
+    height: 92px;
 }
